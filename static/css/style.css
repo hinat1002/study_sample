@@ -1,0 +1,42 @@
+.button {
+  display       : inline-block;
+  border-radius : 50%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #ff8000;     /* 背景色     */
+  color         : #000000;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 4px 4px #ffdd66;  /* 影の設定 */
+  border        : 2px solid #ff8000;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ff8000;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+.center{
+  text-align : center
+}
+
+.header{
+  text-align: center;
+  font-size: 150%;
+  background: #c3feec;
+}
+
+.box {
+border: #0047cc 1px solid; /*境界線の指定*/
+padding:10px;
+}
+.box p {
+margin:0;
+padding:0;
+}
+
+.size_2{
+    font-size: 200%;    /* 文字サイズ指定 */
+}
